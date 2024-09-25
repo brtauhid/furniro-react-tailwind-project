@@ -4,7 +4,7 @@ import logo from '../../assets/furniro-logo.png'
 const Header = () => {
 
     return (
-        <div className="flex justify-between items-center h-24">
+        <div className="flex justify-between items-center h-24 w-[1440px] mx-auto">
             <div className="header-left flex items-center">
                 <img src={logo} alt="" /> <h3 className="ml-2 text-3xl font-bold">Furniro</h3>
             </div>
